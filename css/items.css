@@ -94,48 +94,89 @@ section{
 .header .icons div:hover{
     color:var(--main-color);
 }
-/*body*/
+
+/* body*/
 .container{
-    width:100vw;
-    height:100vh;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
+    max-width:1170px;
+    height:180rem;
+    margin-top: 50px;
+    padding:2rem 7%;
+}
+.headline{
     text-align: center;
+    margin:40px 0px;
 }
-.input{
-    border-radius: 5px;
-    border: 1px solid black;
-    width: 270px;
-    height: 25px;
-    margin-top:10px;
-    
+.headline h3{
+    font-size: 18px;
+    color:var(--black);
+    padding:10px 20px;
+    text-transform: uppercase;
+    border: 1px solid rgb(4, 4, 4);
+    display:inline-block;
 }
-.form-login h1{
-    font-size: 25px;
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1rem;
+    padding-left: 40px;
 }
-.form-text label{
-    font-size: 13px;
+
+.container .box-container .box{
+    padding-left: 1rem;
+    text-align: center;
+    border:var(--border);
+    border:1px solid #cdb1b1;    
 }
-.form-login{
-    width: 400px;
-    height:300px;
-    border-radius: 10px;
-    padding:40px 30px;
+
+.container .box-container .box img{
+    margin-top: 10px;
+    height: 180px;
+    padding-right: 10px;
 }
+
+.container .box-container .box h3{
+    color: rgb(9, 9, 9);
+    font-size: 1.5rem;
+    padding:1rem 0;
+}
+
+.container .box-container .box .price{
+    color: rgb(3, 2, 2);
+    font-size: 1.5rem;
+    padding:.5rem 0;
+}
+
+.container .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.container .box-container .box:hover{
+    background:rgb(110, 106, 99);
+}
+
+.container .box-container .box:hover > *{
+    color:var(--black);
+}
+
 .btn{
-    margin-top: 1rem;
+    margin-bottom: 10px;
     display: inline-block;
-    padding:.5rem 13rem;
-    font-size: 15px;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
     color:#fff;
-    background: var(--black);
+    background: var(--main-color);
     cursor: pointer;
 }
-.form-login p{
-    margin-top: 1rem;
-    font-size: 12px;
+
+.btn:hover{
+    letter-spacing: .2rem;
 }
+
+
+
 
 /**/
 .footer{

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>complete responsive coffee shop website design</title>
+    <title>Tài khoản</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -24,9 +24,9 @@
     </a>
 
     <nav class="navbar">
-        <a href="#GrimmDC">GrimmDC</a>
+        <a href="../html/index.html">GrimmDC</a>
         <a href="#about">about</a>
-        <a href="#menu">menu</a>
+        <a href="../html/items.html">items</a>
         <a href="#products">products</a>
         <a href="#review">review</a>
         <a href="#contact">contact</a>
@@ -37,31 +37,58 @@
         <a href="./account.html">
             <div class="fas fa-solid fa-user-tie" id="user-btn"></div>
         </a>
-        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <a href="../html/cart.html" >
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        </a>
+        
     </div>
 
 </header>
 
-<!-- -->
-<section class="container">
-    <div class="login">
-        <h1>Đăng nhập</h1>
-        <form action="">
-            <div class="inputBox">
-                <span class="fas fa-user"></span>
-                <input type="text" placeholder="name">
+<!--form -->
+<div class="container">
+        <form class="form-login">
+            <h1>Đăng nhập</h1>
+            <div class="form-text">
+                <label>Username:  </label>
+                <input type="text" class="input" >
             </div>
-            <div class="inputBox">
-                <span class="fas fa-envelope"></span>
-                <input type="email" placeholder="email">
+    
+            <div class="form-text">
+                <label>Password:  </label>
+                <input type="text" class="input">
             </div>
-            <input type="submit" value="contact now" class="btn">
+            <a href="#" class="btn">Đăng nhập</a>
+            <p>Bạn chưa có tài khoản? Đăng kí <a href="@">Tại đây</a> </p>
+            <p><a href="@">Quên mật khẩu?</a></p>
         </form>
+</div>
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
     </div>
 
+    <div class="links">
+        <a href="#">GrimmDC</a>
+        <a href="#">about</a>
+        <a href="#">items</a>
+        <a href="#">products</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+    </div>
+
+    <div class="credit">created by <span>GrimmDC</span> | all rights reserved</div>
 
 </section>
 
+<!-- footer section ends -->
 
 <!-- custom js file link  -->
 <script src="../js/script.js"></script>
