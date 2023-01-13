@@ -44,11 +44,12 @@ section{
 }
 
 .heading{
-    text-align: center;
     color:#fff;
     text-transform: uppercase;
     padding-bottom: 3.5rem;
     font-size: 4rem;
+    padding-top: 70px;
+    padding-left: 50px;
 }
 
 .heading span{
@@ -92,5 +93,97 @@ section{
 }
 
 .header .icons div:hover{
+    color:var(--main-color);
+}
+
+/*about*/
+.container{
+    max-width:1170px;
+    height:450rem;
+    margin-top: 70px;
+    padding:2rem 7%;
+    margin-left: 10px;
+}
+.headline{
+    margin:40px 0px;
+}
+.headline h1{
+    font-size: 23px;
+    color:var(--black);
+    text-transform: uppercase;
+    display:inline-block;
+    margin-top: 10px;
+}
+.headline h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color:var(--black);
+    font-family:Times New Roman;
+}
+.headline img{
+    width:900px;
+    height: 600px;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.headline .img-1{
+    width:900px;
+    height:300px;
+}
+
+
+/**/
+.footer{
+    background:var(--black);
+    text-align: center;
+}
+
+.footer .share{
+    padding:1rem 0;
+}
+
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    gap:1rem;
+}
+
+.footer .links a{
+    padding:.7rem 2rem;
+    color:#fff;
+    border:var(--border);
+    font-size: 2rem;
+}
+
+.footer .links a:hover{
+    background:var(--main-color);
+}
+
+.footer .credit{
+    font-size: 2rem;
+    color:#fff;
+    font-weight: lighter;
+    padding:1.5rem;
+}
+
+.footer .credit span{
     color:var(--main-color);
 }
